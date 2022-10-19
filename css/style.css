@@ -1,0 +1,314 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;list-style: none;
+}
+
+header{
+        width: 100%;
+        height: 600px;
+        background: url(../images/banner.jpg)no-repeat;
+        background-size: cover;   
+}
+
+/* #innerheader{
+    width:90%;
+    clip-path: circle(70% at 50% 0%);
+    background-color: yellow;   
+} */
+
+#topheader{
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    background: linear-gradient(black,gray);
+    position:fixed;
+    z-index: 99;
+}
+
+.logo {
+    padding-top: 10px;
+    display: inline-block;
+}
+
+#topheader img{
+    width: 70px;
+    margin-left: 120px;
+}
+
+nav {
+    width: 700px;
+    height: 60px;
+    float: right;
+    padding-top: 20px;
+    margin-right: 60px;
+}
+
+nav a {
+    width: 150px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a.active {
+    color:yellow;
+}
+
+#search{
+    width: 250px;
+    height: 50px;
+    background: black;
+    position: fixed;
+    top:150px;
+    left: -190px;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    z-index: 9999;
+}
+
+#search input{
+    width: 170px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    height: 30px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+#search img{
+    width: 30px;
+    position: absolute;
+    right: 0;
+    margin: 10px;
+
+}
+#search:hover{
+    left: 0px;
+}
+
+#academy{
+    width: 80%;
+    height: 250px;
+    position: relative;
+    top: -40px;
+    margin: 0 auto;
+
+}
+
+#football{
+    background:white url(../images/footballacademy.jpg) no-repeat;
+    background-position: center;
+}
+#squash{
+    background:white url(../images/squashacademy.jpg) no-repeat;
+    background-position: center;
+}
+#swimming{
+    background:white url(../images/swimmingacademy.jpg) no-repeat;
+    background-position: center;
+}
+#tennis{
+    background:white url(../images/tennisacademy.jpg) no-repeat;
+    background-position: center;
+}
+
+.block{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border:2px solid#fddd00;
+    border-radius: 10px;
+    display: inline-block;
+    float: left;
+    margin-right: 80px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.block h2{
+    width: 100%;
+    height: 100%;
+    font-size: 22pt;
+    background-color: rgb(235, 235, 11,.5);
+    color: black;
+    clip-path: circle(0% at 0 0);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.block:hover h2{
+    clip-path: circle(70% at 0 0);
+
+}
+
+.sec{
+    padding-top: 30px ;
+}
+
+#aboutus{
+    width: 80%;
+    min-height: 300px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#aboutus img{
+    width: 90%;
+    float: right;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.sectitle, .sectitle hr{
+    text-align: center;
+    color: #434c9c;
+}
+
+.sectitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+
+hr{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.about{
+    width: 50%;
+    float: left; 
+    color: #434c9c;
+}
+#aboutustext{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+}
+
+#aboutustext h2,h3{
+    font-size: 18pt;
+}
+
+#aboutustext h3{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#aboutustext p{
+    width: 90%;
+    font-size: 14pt;
+    margin-top: 10px;
+    text-align: justify;
+
+
+}
+#ourschedule{
+width: 80%;
+margin: 0 auto;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+#latestnews{    
+    width: 80%;
+    min-height: 300px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.newsblock{
+    display: inline-block;
+    width: 30%;
+    border:2px solid #000;
+    margin:10px;
+}
+.newsblock img{
+    width:80%;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
+
+.newsblock h3,p{
+    margin-left: 20px;
+}
+
+
+#video{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #fddd00;
+    overflow: hidden;
+}
+
+#video img{
+    width: 90%;
+    height: 400px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+#video iframe{
+    width: 90%;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.foot{
+    width: 50%;
+    float: left;
+    align-items: center;
+}
+#copyrights{
+    height: 30px;
+    background-color: rgb(0, 0, 5);
+    padding: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 11pt;
+}
+
+
+#locationmap{
+    width: 100%;
+}
+h6{
+   color: blanchedalmond; 
+}

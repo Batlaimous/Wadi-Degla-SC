@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formstyle.css">
+    <link rel="icon" href="images/logo.png">
+</head>
+<body>
+
+    <main>
+        <header>
+            <div id="innerheader">
+                <div id="topheader">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="logo">
+                    </div>
+                    <nav class="bar">
+                            <a href="index.html" > Home </a>
+                            <a href="#"> About Us </a>
+                            <a href="#"> Academy </a>
+                            <a href="#" class="active"> Register </a>
+                    </nav>
+                </div>
+                <div id="search">
+                    <input type="text">
+                    <img src="images/iconfinder_search_326690.png" alt="search">
+                </div>
+            </div>
+        </header>
+
+        <div id="regform">
+            <h1> please fill the Registeration form below to join us </h1>
+                <form action="index.html">
+                    <div>
+                        <label for="fullname"> Name </label><br>
+                        <input type="text" id="fullname" name="name" placeholder="Your Name....">
+                    </div>
+
+                    <div>
+                        <label for="mail"> Email </label><br>
+                        <input type="email" id="mail" name="name" placeholder="Your Email....">
+                    </div>
+
+                    <div>
+                        <label> Password </label><br>
+                        <input type="password" placeholder=" enter your password">
+                    </div>
+
+                    <div>
+                        <label> Repeat Password </label><br>
+                        <input type="password" placeholder=" re-enter your password">
+                    </div>
+
+                    <div>
+                        <label for="city"> City </label><br>
+                            <select id="city" name="usercity">
+                                <option value="Giza">Giza</option>
+                                <option value="Cairo">Cairo</option>
+                                <option value="Alex">Alex</option>
+                            </select>
+                    </div>
+
+                    
+
+                    <div>
+                        <label> Gender </label><br>
+                        <input type="radio" name="gender" id="male"><label class="smalltext" for="male"> Male </label>
+                        <input type="radio" name="gender" id="female"><label class="smalltext" for="female"> Female </label>
+                    </div>
+
+                    <div>
+                        <label> Select Your Favorite Hobbies </label><br>
+                        <input type="checkbox" name="swimming" id="swimming"><label class="smalltext" for="swimming"> Swimming </label><br>
+                        <input type="checkbox" name="squash" id="squash"><label class="smalltext" for="squash"> Squash </label><br>
+                        <input type="checkbox" name="tennis" id="tennis"><label class="smalltext" for="tennis"> Tennis </label><br>
+                        <input type="checkbox" name="football" id="football"><label class="smalltext" for="football"> Football </label><br>
+                    </div>
+
+                    <div>
+
+                    </div>
+                        <label> Choose Your Favorite Color</label><br>
+                        <input type="color" value="#000">
+                    <div>
+                        <label for="uploadimage"> Upload Your Image </label><br>
+                        <input type="file" id="uploadimage">
+                    </div>
+
+                    <div>
+                        <label for="comment">Comment</label><br>
+                        <textarea id="comment" name="comment" placeholder="Write something.." style="height:100px"></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit">
+                        <input type="reset">
+                    </div>
+                </form>
+        </div>
+
+        <map id="locationmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.7526700609237!2d31.311133015449823!3d29.957792029615128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145839b3c63dddaf%3A0xb48fa374fb86eb9b!2sWadi%20Degla%20Maadi%20Club!5e0!3m2!1sen!2seg!4v1610280081740!5m2!1sen!2seg" width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </map>
+
+        <div id="copyrights">
+            <h6> all copy rights &copy; reserved - Wadi Degla SC Task beshoy younan </h6>
+        </div>
+
+    </main>
+    
+</body>
+</html>
